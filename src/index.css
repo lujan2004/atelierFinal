@@ -1,0 +1,30 @@
+/* frontend/src/index.css */
+
+/* ... (puede que tengas otros estilos aquí) ... */
+
+@media print {
+  .no-print {
+    display: none !important;
+  }
+
+  body, .container {
+    width: 100% !important;
+    margin: 0 !important;
+    padding: 0 !important;
+  }
+  
+  .table {
+    border: 1px solid #dee2e6 !important;
+    color: #000 !important;
+    background-color: #fff !important;
+  }
+  
+  body::before {
+    content: "Reporte de Ventas - El Atelier de los Útiles";
+    display: block;
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+}
