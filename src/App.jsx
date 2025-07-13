@@ -6,7 +6,7 @@ import logo from './assets/logo.png';
 import mascota from './assets/mascota.png';
 
 // La URL de tu API en el backend
-const API_URL = 'http://localhost:3001/api/ventas';
+const API_URL = '/api/ventas';
 
 function App() {
   const [ventas, setVentas] = useState([]);
